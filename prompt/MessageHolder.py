@@ -1,4 +1,4 @@
-from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder
+from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder,FewShotPromptTemplate
 from common.local_model import local_model
 
 template = ChatPromptTemplate(
@@ -15,6 +15,8 @@ history=[
                 ("human", "Hello!"),
             ]
 print(template.format_messages(name="joke",user_input="1234",history=history))
+
+
 
 
 
