@@ -25,6 +25,27 @@ messages=[
 response = llm.invoke(messages)
 print(response)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ERROR
 
 # llm = OpenAI(temperature=0,model="deepseek-chat")
