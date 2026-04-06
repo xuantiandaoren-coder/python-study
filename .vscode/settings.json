@@ -2,7 +2,7 @@
     "editor.formatOnSave": true,
     "python-envs.pythonProjects": [
         {
-            "path": ".venv/selector4prompt",
+            "path": "selector4prompt",
             "envManager": "ms-python.python:venv",
             "packageManager": "ms-python.python:pip"
         }
