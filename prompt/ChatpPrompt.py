@@ -1,5 +1,5 @@
 from langchain_core.prompts import ChatPromptTemplate
-from common.local_model import local_model
+from local_model import local_model
 
 template = ChatPromptTemplate(
     [

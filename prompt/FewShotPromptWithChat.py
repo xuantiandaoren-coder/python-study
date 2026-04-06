@@ -1,6 +1,6 @@
 from langchain_core.prompts import PromptTemplate,FewShotChatMessagePromptTemplate,ChatPromptTemplate
 from langchain_openai import ChatOpenAI
-from common.local_model import local_model
+from local_model import local_model
 
 model = local_model()
 

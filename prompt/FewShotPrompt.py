@@ -1,5 +1,5 @@
 from langchain_core.prompts import PromptTemplate,FewShotPromptTemplate
-from common.local_model import local_model
+from local_model import local_model
 
 model = local_model()
 

@@ -1,6 +1,6 @@
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
-from common.local_model import local_model
+from local_model import local_model
 
 
 promptTemplate = PromptTemplate.from_template("tell me a joke about{topic}")
