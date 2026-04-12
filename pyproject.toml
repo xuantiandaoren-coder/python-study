@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "aiofiles>=25.1.0",
+    "docx2txt>=0.9",
     "dotenv>=0.9.9",
     "grandalf>=0.8",
     "langchain>=1.2.15",
@@ -12,4 +14,5 @@ dependencies = [
     "langchain-community>=0.4.1",
     "langchain-core>=1.2.26",
     "langchain-openai>=1.1.12",
+    "pypdf>=6.10.0",
 ]
